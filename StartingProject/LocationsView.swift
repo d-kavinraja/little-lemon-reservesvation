@@ -1,6 +1,6 @@
 import SwiftUI
-
 struct LocationsView: View {
+    var container=True
     @EnvironmentObject var model:Model
     // The body of this view, which consists of:
     // - A logo image at the top
@@ -39,4 +39,3 @@ struct ContentView_Previews: PreviewProvider {
         LocationsView().environmentObject(Model())
     }
 }
-
